@@ -1,0 +1,152 @@
+
+.ace-memri .ace_gutter {
+  background: #333333;
+  color: rgb(144,145,148)
+}
+
+.ace-memri .ace_print-margin {
+  width: 1px;
+  background: #44475a
+}
+
+.ace-memri {
+  background-color: #333333;
+  color: #CDCBCB
+}
+
+.ace-memri .ace_cursor {
+  color: #f8f8f0
+}
+
+.ace-memri .ace_marker-layer .ace_selection {
+  background: #44475a
+}
+
+.ace-memri.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #282a36;
+  border-radius: 2px
+}
+
+.ace-memri .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-memri .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #a29709
+}
+
+.ace-memri .ace_marker-layer .ace_active-line {
+  background: #44475a
+}
+
+.ace-memri .ace_gutter-active-line {
+  background-color: #44475a
+}
+
+.ace-memri .ace_marker-layer .ace_selected-word {
+  box-shadow: 0px 0px 0px 1px #a29709;
+  border-radius: 3px;
+}
+
+.ace-memri .ace_fold {
+  background-color: #50fa7b;
+  border-color: #f8f8f2
+}
+
+.ace-memri .ace_keyword {
+  color: #EC827D
+}
+
+.ace-memri .ace_constant.ace_language {
+  color: #A28EFF
+}
+
+.ace-memri .ace_constant.ace_numeric {
+  color: #A28EFF
+}
+
+.ace-memri .ace_constant.ace_character {
+  color: #A28EFF
+}
+
+.ace-memri .ace_constant.ace_character.ace_escape {
+  color: #EC827D
+}
+
+.ace-memri .ace_constant.ace_other {
+  color: #A28EFF
+}
+
+.ace-memri .ace_support.ace_function {
+  color: #DEA54F
+}
+
+.ace-memri .ace_support.ace_constant {
+  color: #DEA54F
+}
+
+.ace-memri .ace_support.ace_class {
+  font-style: italic;
+  color: #DEA54F
+}
+
+.ace-memri .ace_support.ace_type {
+  font-style: italic;
+  color: #DEA54F
+}
+
+.ace-memri .ace_storage {
+  color: #EC827D
+}
+
+.ace-memri .ace_storage.ace_type {
+  font-style: italic;
+  color: #DEA54F
+}
+
+.ace-memri .ace_invalid {
+  color: #F8F8F0;
+  background-color: #EC827D
+}
+
+.ace-memri .ace_invalid.ace_deprecated {
+  color: #F8F8F0;
+  background-color: #A28EFF
+}
+
+.ace-memri .ace_string {
+  color: #80B2DD;
+}
+
+.ace-memri .ace_comment {
+  color: #E78DB8
+}
+
+.ace-memri .ace_variable {
+  color: #47B394
+}
+
+.ace-memri .ace_variable.ace_parameter {
+  font-style: italic;
+  color: #ffb86c
+}
+
+.ace-memri .ace_entity.ace_other.ace_attribute-name {
+  color: #47B394
+}
+
+.ace-memri .ace_entity.ace_name.ace_function {
+  color: #47B394
+}
+
+.ace-memri .ace_entity.ace_name.ace_tag {
+  color: #EC827D
+}
+.ace-memri .ace_invisible {
+  color: #626680;
+}
+
+.ace-memri .ace_indent-guide {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHB3d/8PAAOIAdULw8qMAAAAAElFTkSuQmCC) right repeat-y
+}
