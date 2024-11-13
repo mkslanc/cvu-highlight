@@ -50,9 +50,15 @@ module.exports = (env, argv) => {
             minimize: false
         },
         devServer: {
-            contentBase: __dirname,
             compress: true,
-            port: 9000
+            port: 9000,
+            client: {
+                overlay: false
+            },
+            headers: {
+                'Cross-Origin-Embedder-Policy': 'require-corp',
+                'Cross-Origin-Opener-Policy': 'same-origin'
+            },
         },
         plugins: [
             new CopyPlugin({

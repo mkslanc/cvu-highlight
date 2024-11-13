@@ -11,10 +11,6 @@ import {Mode} from "./playground/cvu-mode";
 // @ts-ignore
 import * as css from "./playground/memri-theme.css";
 
-var Editor = ace.require("ace/editor").Editor;
-var Renderer = ace.require("ace/virtual_renderer").VirtualRenderer;
-var theme = ace.require("ace/theme/dracula");
-
 
 var cvumode = new Mode()
 
@@ -57,12 +53,12 @@ event.addCommandKeyListener(window, function (e, hashId, keyCode) {
     }
 });
 
-var editor = new Editor(new Renderer(null, theme));
+var editor = ace.edit("itemContent");
 editor.setTheme({cssText: css, cssClass: "ace-memri", isDark: true})
 var session = ace.createEditSession("", cvumode);
 editor.setSession(session);
+window.editor = editor;
 
-document.body.innerHTML = ""
 editor.$options.readOnly.set.call(editor, editor.$readOnly);
 
 document.body.appendChild(editor.container);
@@ -71,6 +67,7 @@ window.parent.addEventListener('message', handleMessage, false);
 if (window.chrome != undefined && window.chrome.webview != undefined) {
     window.chrome.webview.addEventListener('message', handleMessage, false);
 }
+
 function handleMessage(e) {
     var data = "";
     if (typeof e.data == "string") {

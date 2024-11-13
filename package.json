@@ -11,15 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ace-builds": "^1.4.12",
+    "ace-builds": "^1.36.0",
     "file-loader": "^6.0.0",
     "text-loader": "0.0.1",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.6",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
-    "worker-loader": "^2.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "worker-loader": "^3.0.8",
     "copy-webpack-plugin": "6.0.0"
   },
   "devDependencies": {
